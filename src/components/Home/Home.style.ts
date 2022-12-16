@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const HomeContainer = styled.div`
-    background-position: center;
+    background-position: center center;
+    /* background-attachment: fixed; */
   background-repeat: no-repeat;
   background-size: cover;
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)),
@@ -11,10 +12,30 @@ export const HomeContainer = styled.div`
     padding: 0px 100px ;
     height: 88vh;
     position: relative;
+
+
+    @media only screen and (max-width: 428px) {
+            
+            height: 70vh;
+    }
         h1{
             margin: 25px 0px;
             font-size: 4rem;
             line-height: normal;
+
+            @media only screen and (max-width: 868px) {
+                font-size: 3rem;
+                
+            }
+            @media only screen and (max-width: 768px) {
+                font-size: 2rem;
+            }
+
+            @media only screen and (max-width: 428px) {
+                margin: 5px 0px;
+            font-size: 2rem;
+            /* height: 70vh; */
+    }
         }
 
         h2{
@@ -35,9 +56,27 @@ export const PerksContainer = styled.div`
     justify-content: center;
     gap: 30px;
     font-size: 1.5em;
+
+    
+    @media only screen and (max-width: 428px) {
+        flex-direction: column;
+        margin-top: 14px;
+            gap: 0;
+          
+    }
         /* margin-top: 150px; */
         h4{
-            font-weight: lighter
+            font-weight: lighter;
+
+            @media only screen and (max-width: 868px) {
+                font-size: small;
+                
+            }
+            @media only screen and (max-width: 428px) {
+                font-size: medium;
+                font-weight: 520;
+                
+            }
         }
 
     img{
@@ -56,6 +95,15 @@ export const HiringContainer = styled.div`
     box-shadow: 0 1.5rem 2rem rgb(0 0 0 / 60%);
     overflow: hidden;
     color: black;
+
+    @media only screen and (max-width: 868px) {
+        transform: translateY(63rem);
+                
+            }
+
+            @media only screen and (max-width: 768px) {
+                transform: translateY(54rem);
+            }
 
     h4{
         margin-bottom: 56px;
