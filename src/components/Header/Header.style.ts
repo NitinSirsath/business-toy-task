@@ -36,11 +36,11 @@ export const ContactContainers = styled.p`
 
 `
 export const LogoWhatsapp = styled.img`
-    height: 34px;
+    height: 32px;
     padding-right: 5px ;
     `
 
 export const LogoCall = styled.img`
 padding-right: 5px ;
-    height: 22px;
+    height: 20px;
 `
