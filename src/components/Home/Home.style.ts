@@ -14,8 +14,16 @@ export const HomeContainer = styled.div`
     position: relative;
 
 
+    @media only screen and (max-width: 868px) {
+            padding: 0px 50px;
+            height: 70vh;
+    }
+    @media only screen and (max-width: 768px) {
+            padding: 0px 30px;
+            height: 70vh;
+    }
     @media only screen and (max-width: 428px) {
-            
+            padding: 0;
             height: 70vh;
     }
         h1{
@@ -33,6 +41,7 @@ export const HomeContainer = styled.div`
 
             @media only screen and (max-width: 428px) {
                 margin: 5px 0px;
+                
             font-size: 2rem;
             /* height: 70vh; */
     }
@@ -62,6 +71,7 @@ export const PerksContainer = styled.div`
         flex-direction: column;
         margin-top: 14px;
             gap: 0;
+            
           
     }
         /* margin-top: 150px; */
@@ -97,16 +107,21 @@ export const HiringContainer = styled.div`
     color: black;
 
     @media only screen and (max-width: 868px) {
-        transform: translateY(63rem);
+        transform: translateY(36rem);
                 
             }
 
             @media only screen and (max-width: 768px) {
-                transform: translateY(54rem);
+                transform: translateY(36rem);
+            }
+            @media only screen and (max-width: 428px) {
+                transform: translateY(35rem);
+                width: 90%;
+                height: 237px;
             }
 
     h4{
-        margin-bottom: 56px;
+        margin-bottom: 48px;
         font-weight: 800;
         text-decoration: underline;
         text-decoration-thickness:2px
@@ -120,4 +135,33 @@ export const CompanyCard = styled.div`
     align-items: center;
     gap: 33px;
 
+
+    @media only screen and (max-width: 868px) {
+       
+    gap: 6px;
+    }
+    @media only screen and (max-width: 768px) {
+      
+    gap: 3px;
+    }
+    @media only screen and (max-width: 428px) {
+        display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    }
+
+        img{
+            height: 26px;
+
+            @media only screen and (max-width: 428px) {
+                height: 22px;
+            }
+            @media only screen and (max-width: 868px) {
+                height: 20px;
+                
+            }
+            @media only screen and (max-width: 768px) {
+                height: 18px;
+            }
+        }
 `
