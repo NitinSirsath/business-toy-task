@@ -1,7 +1,9 @@
 
 import './App.css'
+import ContactPage from './components/ContactPage/ContactPage';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
+import SolutionPage from './components/SolutionPage/SolutionPage';
 
 function App() {
 
@@ -10,6 +12,8 @@ function App() {
     <div className="App">
     <Header />
     <Home />
+    <SolutionPage />
+    <ContactPage />
     </div>
   )
 }

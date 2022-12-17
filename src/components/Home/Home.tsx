@@ -40,7 +40,7 @@ const Home = () => {
                 <h4>1000+ Companies Hiring:</h4>
                 <CompanyCard>
                     {hiringData.map((company: any) => {
-                        return <img key={company.id} src={company.companyLogo} height={26} alt="company-logo" />
+                        return <img key={company.id} src={company.companyLogo} alt="company-logo" />
                     })
                     }
                     

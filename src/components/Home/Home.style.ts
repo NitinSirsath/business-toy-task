@@ -101,7 +101,7 @@ export const HiringContainer = styled.div`
     padding: 2rem;
     height: 9rem;
     margin: auto;
-    width: 75%;
+    width: 87%;
     box-shadow: 0 1.5rem 2rem rgb(0 0 0 / 60%);
     overflow: hidden;
     color: black;
@@ -133,7 +133,7 @@ export const CompanyCard = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 33px;
+    gap: 50px;
 
 
     @media only screen and (max-width: 868px) {
