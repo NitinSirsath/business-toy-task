@@ -105,5 +105,5 @@ display: inline-block;
     font-size: 1.2rem;
     border-radius: 1rem;
     box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 20%);
-}
+
 `

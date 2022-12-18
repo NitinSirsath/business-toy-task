@@ -20,7 +20,7 @@ const CoursePage = () => {
         get :
       </TitleHeading>
       <PerkContainer>
-        {data.map((item: { id: React.Key | null | undefined; image: string | undefined; perkName: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | null | undefined; }) => {
+        {data.map((item:any) => {
           return (
             <PerkCard key={item.id}>
               <img src={item.image} height={58} alt={item.perkName} />
