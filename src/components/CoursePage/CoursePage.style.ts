@@ -79,11 +79,11 @@ export const PerkCard = styled.div`
       font-size: 15px;
     }
     @media only screen and (max-width: 868px) {
-      font-size: 1.6rem;
+      font-size: 0.9rem;
       margin-bottom: 20px;
     }
     @media only screen and (max-width: 768px) {
-      font-size: 1.4rem;
+      font-size: 0.7rem;
       margin-bottom: 14px;
     }
     @media only screen and (max-width: 428px) {
@@ -97,6 +97,10 @@ export const BroucherButtonContainer = styled.div`
     display: flex;
     justify-content: center;
     margin-top: 30px;
+
+    @media only screen and (max-width:428px){
+        padding: 0px 20px;
+    }
 `
 
 export const BroucherButton = styled.button`
@@ -110,6 +114,10 @@ export const BroucherButton = styled.button`
     box-shadow: 0 1rem 2rem rgb(0 0 0 / 20%);
     border: none;
     font-weight: 600;
+
+    @media only screen and (max-width:428px) {
+        width: 80%;
+    }
 `
 
 export const AssistantContainer = styled.div`
@@ -133,7 +141,7 @@ export const AssistantContainer = styled.div`
             text-align: center;
             font-size: 12px;
             font-weight: 600;
-
+            margin-top: 16px;
             @media only screen and (max-width:428px){
                 margin-top: 14px;
             }
@@ -159,6 +167,10 @@ export const MentorshipContainer = styled.div`
     border-radius: 0.6rem;
     border: 0.1rem solid #707070;
     outline: none;
+            
+    @media only screen and(max-width:428px){
+        padding: 0.8rem;
+    }
         }
 
         button{
@@ -174,6 +186,10 @@ export const MentorshipContainer = styled.div`
     font-size: 1.3rem;
     border-radius: 0.6rem;
     box-shadow: 0 1rem 2rem rgb(0 0 0 / 20%);
+
+            @media only screen and (max-width:428px){
+                width: 19rem;
+            }
         }
 `
 
