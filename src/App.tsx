@@ -1,5 +1,6 @@
 
 import './App.css'
+import CertificatePage from './components/CertificatePage/CertificatePage';
 import ContactPage from './components/ContactPage/ContactPage';
 import CoursePage from './components/CoursePage/CoursePage';
 import Header from './components/Header/Header';
@@ -22,6 +23,7 @@ function App() {
     <TestimonialsPage />
     <LearningPage />
     <QuestionsPage />
+    <CertificatePage />
     </div>
   )
 }

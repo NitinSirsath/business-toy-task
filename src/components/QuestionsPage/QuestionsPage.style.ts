@@ -34,7 +34,7 @@ export const Card = styled.div`
     margin-top: 2rem;
     padding: 1.7rem 2rem;
     border-radius: 0.7rem;
-    /* transition: all .2s ease; */
+    transition: 1s;
     @media only screen and (max-width:868px){
         width: 70%;
     }
