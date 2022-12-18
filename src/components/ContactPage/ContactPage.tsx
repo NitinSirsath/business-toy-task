@@ -46,7 +46,7 @@ const ContactPage = () => {
             <div>
                 <Heading>Signup for our One-to-One Mentoring Session :</Heading>
                 <div>
-                    {contactPerkData.map((item) => {
+                    {contactPerkData.map((item:any) => {
                         return (
                             <div key={item.id}>
                                 <p><img src={OrangeDot} alt="orange-dot" /> {item.pernNAme}</p>
