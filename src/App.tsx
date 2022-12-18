@@ -4,6 +4,7 @@ import CertificatePage from './components/CertificatePage/CertificatePage';
 import CoachesPage from './components/CoachesPage/CoachesPage';
 import ContactPage from './components/ContactPage/ContactPage';
 import CoursePage from './components/CoursePage/CoursePage';
+import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import LearningPage from './components/LearningPage/LearningPage';
@@ -26,6 +27,7 @@ function App() {
     <QuestionsPage />
     <CertificatePage />
     <CoachesPage />
+    <Footer />
     </div>
   )
 }

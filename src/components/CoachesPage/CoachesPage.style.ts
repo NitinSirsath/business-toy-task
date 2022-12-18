@@ -22,6 +22,19 @@ export const Heading = styled.h1`
     font-weight: lighter;
     text-align: center;
     margin-bottom: 40px;
+
+    @media only screen and (max-width:968px){
+            padding: 80px;
+        }
+        @media only screen and (max-width:868px){
+            padding: 60px;
+        }
+        @media only screen and (max-width:768px){
+            padding: 40px;
+        }
+        @media only screen and (max-width:468px){
+            padding: 20px;
+        }
     `
 
 export const CardContainer = styled.div`
@@ -37,6 +50,7 @@ export const CardContainer = styled.div`
         }
         @media only screen and (max-width:468px){
             gap: 16px;
+            overflow-x: scroll;
         }
 
 `
@@ -48,19 +62,7 @@ export const Card = styled.div`
     position: relative;
 
 
-    @media only screen and (max-width:968px){
-            
-        }
-        @media only screen and (max-width:868px){
-
-        }
-        @media only screen and (max-width:768px){
-
-        }
-        @media only screen and (max-width:468px){
-
-        }
-
+   
     p{
         text-align: center;
         padding: 10px 40px;
