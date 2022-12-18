@@ -8,7 +8,7 @@ background-position: center center;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(${(props:any) => props.background});
     color: white;
-    padding: 0px 100px ;
+    padding: 15px 100px ;
     @media only screen and (max-width: 428px) {
         padding: 40px 40px ;
     }
@@ -31,7 +31,19 @@ export const ContentWrapper = styled.div`
     height: 27rem;
     
     p{
-        margin-bottom: 5px
+        display: flex;
+        margin-bottom: 10px;
+        gap: 10px;
+        align-items: center;
+        font-weight: 600;
+    font-size: 17px;
+
+        @media only screen and (max-width: 428px){
+            gap: 4px;
+        
+        font-weight: 500;
+    font-size: 16px;
+        }
     }
 
     @media only screen and (max-width: 428px) {
@@ -54,13 +66,14 @@ export const Heading = styled.h3`
 export const DetailsCardContainer = styled.div`
     background-color: #f7f7f7;
     transition: all .2s ease;
-    /* overflow: hidden; */
-    padding: 1.3rem 2.8rem;
+   
+    padding: 1.1rem 2.8rem;
     height: 90%;
     width: 23rem;
     text-align: left;
     color: black;
     border-radius: 13px;
+   
 
 
 
@@ -79,7 +92,7 @@ export const DetailsCardContainer = styled.div`
     
     
     @media only screen and (max-width: 428px) {
-        
+        width: 23rem;
         height: 55%;
     }
 
@@ -91,14 +104,19 @@ export const DetailsCardContainer = styled.div`
             margin-bottom: 1rem;
         }
 
+            p{
+                font-weight: lighter;
+            }
+
         input{
             width: 100%;
     height: 2.5rem;
-    margin-top: 0.2rem;
+    margin-top: 0.1rem;
     margin-bottom: 1rem;
     border-radius: 0.8rem;
     border: 0.1rem solid #EC5315;
     background-color: inherit;
+    
 
     @media only screen and (max-width: 968px) {
         height: 2.2rem;
@@ -110,6 +128,10 @@ export const DetailsCardContainer = styled.div`
         }
         @media only screen and (max-width: 768px) {
             height: 1.6rem;
+            margin-bottom: 0.5rem;
+        }
+        @media only screen and (max-width: 428px) {
+            height: 2.6rem;
             margin-bottom: 0.5rem;
         }
         }
@@ -147,5 +169,10 @@ export const Button = styled.button`
         @media only screen and (max-width: 768px) {
             padding: 0.4rem 0.6rem;
     font-size: 16px;
+        }
+        @media only screen and (max-width: 428px) {
+            padding: 0.8rem 1rem;
+    font-size: 16px;
+    margin-top: 24px;
         }
 `
