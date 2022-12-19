@@ -4,6 +4,11 @@ export const Container = styled.div`
 margin-top: 150px;
 margin-bottom: 100px;
 
+@media only screen and (max-width:428px){
+        margin-top: 200px;
+
+    }
+
 
 `
 export const TitleHeading = styled.h1`
