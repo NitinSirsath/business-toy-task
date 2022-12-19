@@ -47,7 +47,7 @@ export const Card = styled.div`
             width: 80%;
             font-weight: lighter;
 
-                @media only screen only(max-width:428px){
+                @media only screen and (max-width:428px){
                     width:100%;
                 }
         }
