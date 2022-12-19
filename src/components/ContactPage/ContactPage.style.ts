@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 
-export const Container = styled.div`
+export const Container = styled.div<{background:string}>`
 background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

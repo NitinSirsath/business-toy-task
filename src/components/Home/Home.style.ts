@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const HomeContainer = styled.div`
+export const HomeContainer = styled.div<{background:string}>`
     background-position: center center;
     /* background-attachment: fixed; */
   background-repeat: no-repeat;

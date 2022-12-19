@@ -25,15 +25,113 @@ export const ColorRed = styled.span`
     color: #EC5315;
 `
 
-export const SolutionCardContainer = styled.div`
-    background-position: center center;
+export const SolutionCardContainer = styled.div<{background:string}>`
+    background-position: center;
     /* background-attachment: fixed; */
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-image:
     url(${(props:any) => props.background});
     color: white;
     text-align: center;
     padding: 30px 20px ;
+    position: relative;
+    height: 80vh;
     
+
+        @media only screen and (max-width:868px){
+            position: static;
+            background-image: none;
+        }
+    
+
+    h2{
+        padding: 1rem 2rem;
+    display: inline-block;
+    font-size: 1.2rem;
+    background-color: #EC5315;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+    }
+    p{
+        color: black;
+        font-size: 14px;
+        font-weight: bold;
+    }
+`
+
+export const SolutionCard1 = styled.div`
+position: absolute;
+    left: 11%;
+    top: 10%;
+
+    @media only screen and (max-width:868px){
+            position: static;
+           width:70%;
+           margin-bottom:10px;
+        }
+
+
+`
+export const SolutionCard2 = styled.div`
+position: absolute;
+right: 9%;
+top: 10%;
+
+@media only screen and (max-width:868px){
+            position: static;
+           width:70%;
+           margin-bottom: 10px;
+        }
+
+`
+export const SolutionCard3 = styled.div`
+position: absolute;
+    left: 6%;
+    top: 45%;
+
+    @media only screen and (max-width:868px){
+            position: static;
+           width:70%;
+           margin-bottom:10px;
+        }
+
+`
+export const SolutionCard4 = styled.div`
+position: absolute;
+
+top: 55%;
+    right: 3%;
+    
+    
+    @media only screen and (max-width:868px){
+            position: static;
+           width:70%;
+           margin-bottom:10px;
+        }
+
+`
+export const SolutionCard5 = styled.div`
+position: absolute;
+top: 75%;
+    left: 15%;
+    @media only screen and (max-width:868px){
+            position: static;
+           width:70%;
+           margin-bottom:10px;
+        }
+
+`
+export const SolutionCard6 = styled.div`
+position: absolute;
+top: 78%;
+    right: 8%;
+    
+    @media only screen and (max-width:868px){
+            position: static;
+          width:70%;
+          margin-bottom:10px; 
+        }
+
 `
