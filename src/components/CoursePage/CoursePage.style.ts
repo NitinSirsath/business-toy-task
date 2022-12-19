@@ -97,6 +97,7 @@ export const BroucherButtonContainer = styled.div`
     display: flex;
     justify-content: center;
     margin-top: 30px;
+   
 
     @media only screen and (max-width:428px){
         padding: 0px 20px;
@@ -114,6 +115,7 @@ export const BroucherButton = styled.button`
     box-shadow: 0 1rem 2rem rgb(0 0 0 / 20%);
     border: none;
     font-weight: 600;
+    cursor: pointer;
 
     @media only screen and (max-width:428px) {
         width: 80%;

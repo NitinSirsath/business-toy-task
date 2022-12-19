@@ -15,7 +15,7 @@ const CoachesPage = () => {
                     <ImagePerson src={person.image} alt={person.peronName} />
                     <h2>{person.peronName}</h2>
                     <p>{person.position}</p>
-                    <Button>VIEW PROFILE</Button>
+                    <a href={person.link} target="_blank"><Button>VIEW PROFILE</Button></a>
                 </Card>
             })}
         </CardContainer>

@@ -71,7 +71,7 @@ export const Card = styled.div`
 `
 export const LinkedInImage = styled.img`
         position: absolute;
-    top: 23%;
+    top: 42%;
     right: 18%;
     height: 3rem;
 `
@@ -88,11 +88,16 @@ display: inline-block;
     text-decoration: none;
     background-color: #EC5315;
     color: #fff;
-    width: 80%;
+    width: 60%;
     text-align: center;
     padding: 0.9rem 0;
     font-size: 1rem;
     border-radius: 0.6rem;
     border: none;
     font-weight: 600;
+    cursor: pointer;
+
+    @media only screen and (max-width:428px){
+        width: 85%;
+    }
 `
