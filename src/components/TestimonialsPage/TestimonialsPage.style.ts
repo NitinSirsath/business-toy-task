@@ -16,8 +16,7 @@ export const CardContainer = styled.div<{background:string}>`
     gap: 70px;
 
         @media only screen and (max-width:428px){
-            /* align-items: unset;
-    justify-content: unset; */
+           
     overflow-x: scroll;
         }
 `

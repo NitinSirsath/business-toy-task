@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-margin-top: 200px;
+margin-top: 150px;
+margin-bottom: 100px;
+
 
 `
 export const TitleHeading = styled.h1`
@@ -42,6 +44,7 @@ export const SolutionCardContainer = styled.div<{background:string}>`
         @media only screen and (max-width:868px){
             position: static;
             background-image: none;
+            
         }
     
 
@@ -53,11 +56,39 @@ export const SolutionCardContainer = styled.div<{background:string}>`
     color: #fff;
     font-weight: normal;
     text-align: center;
+        
+    @media only screen and (max-width:868px){
+           width: 90%;
+           padding: 0.9rem 1.8rem;
+        }
+    @media only screen and (max-width:768px){
+          font-size: 1rem;
+          padding: 0.7rem 1.5rem;
+          width: 90%;
+        }
+    @media only screen and (max-width:428px){
+           width: 90%;
+           font-size: 0.8rem;
+           padding: 0.5rem 1rem;
+        }
     }
     p{
         color: black;
         font-size: 14px;
         font-weight: bold;
+        text-align: start;
+
+        @media only screen and (max-width:868px){
+            margin-left: 40px;
+        }
+        @media only screen and (max-width:768px){
+            margin-left: 10px;
+            font-size: 12px;
+        }
+        @media only screen and (max-width:428px){
+            margin-left: 0px;
+            font-size: 10px;
+        }
     }
 `
 
@@ -68,7 +99,7 @@ position: absolute;
 
     @media only screen and (max-width:868px){
             position: static;
-           width:70%;
+           
            margin-bottom:10px;
         }
 
@@ -81,7 +112,7 @@ top: 10%;
 
 @media only screen and (max-width:868px){
             position: static;
-           width:70%;
+           
            margin-bottom: 10px;
         }
 
@@ -93,7 +124,7 @@ position: absolute;
 
     @media only screen and (max-width:868px){
             position: static;
-           width:70%;
+           
            margin-bottom:10px;
         }
 
@@ -107,7 +138,7 @@ top: 55%;
     
     @media only screen and (max-width:868px){
             position: static;
-           width:70%;
+           
            margin-bottom:10px;
         }
 
@@ -118,7 +149,7 @@ top: 75%;
     left: 15%;
     @media only screen and (max-width:868px){
             position: static;
-           width:70%;
+           
            margin-bottom:10px;
         }
 
@@ -130,7 +161,7 @@ top: 78%;
     
     @media only screen and (max-width:868px){
             position: static;
-          width:70%;
+          
           margin-bottom:10px; 
         }
 
