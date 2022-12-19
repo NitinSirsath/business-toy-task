@@ -4,7 +4,7 @@ export const Container = styled.div`
  
 `
 
-export const CardContainer = styled.div`
+export const CardContainer = styled.div<{background:string}>`
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
