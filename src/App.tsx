@@ -1,6 +1,7 @@
 
 import './App.css'
 import CertificatePage from './components/CertificatePage/CertificatePage';
+import ChatPage from './components/ChatPage/ChatPage';
 import CoachesPage from './components/CoachesPage/CoachesPage';
 import ContactPage from './components/ContactPage/ContactPage';
 import CoursePage from './components/CoursePage/CoursePage';
@@ -17,6 +18,9 @@ function App() {
 
   return (
     <div className="App">
+      {/* <div>
+        <ChatPage />
+      </div> */}
     <Header />
     <Home />
     <SolutionPage />

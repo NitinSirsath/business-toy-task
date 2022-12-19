@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const Container = styled.div`    
     color: white;
+
+    
     `
 
 export const Heading = styled.h1`
@@ -13,6 +15,20 @@ export const Heading = styled.h1`
 
 export const Certificate = styled.img`
     height: 20rem;
+
+    @media only screen and (max-width:968px){
+            height: 19rem;
+        }
+        @media only screen and (max-width:868px){
+height: 18px;
+        }
+        @media only screen and (max-width:768px){
+height: 17.6rem;
+        }
+        @media only screen and (max-width:468px){
+            height: 15rem;
+        }
+        
     `
 
 export const Wrapper = styled.div`
@@ -24,7 +40,7 @@ export const Wrapper = styled.div`
     gap: 30px;
     @media only screen and (max-width:428px){
         flex-direction: column;
-        padding: 1.5rem 12rem;
+        padding: 1.5rem 11rem;
     }
 `
 

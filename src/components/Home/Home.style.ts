@@ -11,6 +11,7 @@ export const HomeContainer = styled.div<{background:string}>`
     text-align: center;
     padding: 0px 100px ;
     height: 88vh;
+    margin-bottom: 70px;
     position: relative;
 
 
@@ -28,7 +29,7 @@ export const HomeContainer = styled.div<{background:string}>`
     }
         h1{
             margin: 25px 0px;
-            font-size: 4rem;
+            font-size: 3.8rem;
             line-height: normal;
 
             @media only screen and (max-width: 868px) {
@@ -48,7 +49,7 @@ export const HomeContainer = styled.div<{background:string}>`
         }
 
         h2{
-            font-size: 2rem;
+            font-size: 2.7rem;
         }
 `
 export const ContentWrapper = styled.div`
@@ -98,7 +99,7 @@ export const HiringContainer = styled.div`
       
       transform: translateY(44rem);
     background-color: #fff;
-    padding: 2rem;
+    padding: 2.2rem 2rem;
     height: 9rem;
     margin: auto;
     width: 87%;
@@ -106,6 +107,23 @@ export const HiringContainer = styled.div`
     overflow: hidden;
     color: black;
 
+    @media only screen and (max-width: 1268px) {
+        transform: translateY(36rem);
+                
+            }
+
+    @media only screen and (max-width: 1168px) {
+        transform: translateY(36rem);
+                
+            }
+    @media only screen and (max-width: 1068px) {
+        transform: translateY(36rem);
+                
+            }
+    @media only screen and (max-width: 968px) {
+        transform: translateY(36rem);
+                
+            }
     @media only screen and (max-width: 868px) {
         transform: translateY(36rem);
                 
