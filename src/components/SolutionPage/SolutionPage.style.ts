@@ -91,7 +91,7 @@ export const SolutionCardContainer = styled.div<{background:string}>`
             font-size: 12px;
         }
         @media only screen and (max-width:428px){
-            margin-left: 0px;
+            margin-left: 20px;
             font-size: 10px;
         }
     }
