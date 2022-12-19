@@ -9,7 +9,7 @@ background-position: center center;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(${(props:any) => props.background});
     color: white;
-    padding: 15px 100px ;
+    padding: 25px 100px ;
     @media only screen and (max-width: 428px) {
         padding: 40px 40px ;
     }
@@ -68,12 +68,12 @@ export const DetailsCardContainer = styled.div`
     background-color: #f7f7f7;
     transition: all .2s ease;
    
-    padding: 1.1rem 2.8rem;
-    height: 90%;
+    padding: 1.3rem 2.8rem;
+    height: 95%;
     width: 23rem;
     text-align: left;
     color: black;
-    border-radius: 13px;
+    border-radius: 10px;
    
 
 

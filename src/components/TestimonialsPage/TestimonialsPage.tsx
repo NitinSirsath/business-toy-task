@@ -15,7 +15,7 @@ const TestimonialsPage = () => {
                             <h2>{card.personName}</h2>
                             <p style={{
                                 fontSize: '14px',
-                                lineHeight: 'normal', padding: '13px 25px'
+                                lineHeight: 'normal', 
                             }}><i>{card.desc}</i></p>
                             <p style={{fontWeight:'bold'}}>{card.batch}</p>
                             <p style={{fontWeight:'lighter'}}>{card.course}</p>
